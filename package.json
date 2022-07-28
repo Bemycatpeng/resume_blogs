@@ -11,7 +11,7 @@
     "prettier:comment": "自动格式化当前目录下的所有文件",
     "prettier": "prettier .  --write",
     "commit:comment": "引导设置规范化的提交信息",
-    "commit": "git-cz"
+    "co": "git-cz"
   },
   "config": {
     "commitizen": {
@@ -28,7 +28,6 @@
     "@vueuse/core": "^8.2.0",
     "axios": "^0.26.1",
     "pinia": "^2.0.12",
-    "trianglify": "^4.1.1",
     "vue": "^3.2.25",
     "vue-router": "^4.0.14"
   },

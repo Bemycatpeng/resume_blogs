@@ -1,5 +1,6 @@
 <template>
-  <div class="bg-slate-500 text-4xl">我是首页</div>
+  <!-- 头部侧边栏/侧边栏 -->
+  <div></div>
 </template>
 
 <script lang="ts">
@@ -10,7 +11,7 @@
 
     setup() {
       const test = () => {
-        console.log('我是模板加载');
+        console.log('我是首页');
       };
       onMounted(() => {
         test();
