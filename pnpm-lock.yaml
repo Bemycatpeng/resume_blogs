@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@commitlint/cli': ^16.2.3
   '@commitlint/config-conventional': ^16.2.1
+  '@tailwindcss/line-clamp': ^0.4.0
   '@types/node': ^17.0.23
   '@typescript-eslint/eslint-plugin': ^5.16.0
   '@typescript-eslint/parser': ^5.16.0
@@ -40,6 +41,7 @@ dependencies:
 devDependencies:
   '@commitlint/cli': 16.2.3
   '@commitlint/config-conventional': 16.2.1
+  '@tailwindcss/line-clamp': registry.npmmirror.com/@tailwindcss/line-clamp/0.4.0_tailwindcss@3.1.6
   '@types/node': 17.0.23
   '@typescript-eslint/eslint-plugin': 5.16.0_jx3cw3qslzxrr37ofuatwsu5qa
   '@typescript-eslint/parser': 5.16.0_thk3xo4exzjr5rl6cnexo7v6re
@@ -3464,6 +3466,17 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': registry.npmmirror.com/@nodelib/fs.scandir/2.1.5
       fastq: registry.npmmirror.com/fastq/1.13.0
+    dev: true
+
+  registry.npmmirror.com/@tailwindcss/line-clamp/0.4.0_tailwindcss@3.1.6:
+    resolution: {integrity: sha512-HQZo6gfx1D0+DU3nWlNLD5iA6Ef4JAXh0LeD8lOGrJwEDBwwJNKQza6WoXhhY1uQrxOuU8ROxV7CqiQV4CoiLw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tailwindcss/line-clamp/-/line-clamp-0.4.0.tgz}
+    id: registry.npmmirror.com/@tailwindcss/line-clamp/0.4.0
+    name: '@tailwindcss/line-clamp'
+    version: 0.4.0
+    peerDependencies:
+      tailwindcss: '>=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1'
+    dependencies:
+      tailwindcss: registry.npmmirror.com/tailwindcss/3.1.6
     dev: true
 
   registry.npmmirror.com/acorn-node/1.8.2:

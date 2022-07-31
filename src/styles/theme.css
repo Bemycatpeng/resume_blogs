@@ -1,0 +1,77 @@
+/*
+Highlight 主题色，可以作为标题、字体高亮等颜色
+
+《Bg 背景色》
+base 网页的整体背景色
+nav 网页导航栏的颜色
+alarm 报警的颜色
+
+《Text 字体颜色》
+main 字体的主要颜色，用于正文
+muted 在「失效」按钮中字体的颜色
+invert 在彩色按钮中字体的颜色
+
+Fill 按钮或卡片的填充色，也是主题色
+
+main 主要填充色
+muted 「失效」按钮填充色，也是选中字体时的背景色
+*/
+
+/* 调研到的命名名称
+brand secondary
+success warning info （提示起泡系列）
+primary regular secondary placeholder
+base light lighter extralight (text 系列)
+B W  */
+
+/* 背景命名
+bg-base bg-nav bg-alarm
+bg-main bg-muted bg-invert
+bg-fill bg-fill-main bg-fill-muted bg-fill-invert
+*/
+
+:root {
+  /* 背景颜色 */
+  --color-highlight: 59, 130, 246;
+  --color-bg-base: 18, 18, 18;
+  --color-bg-card: 30, 30, 31;
+  --color-bg-split: 56, 56, 56;
+
+  --color-bg-cardLight: 0, 0, 0, 0;
+  --color-bg-label: 43, 43, 44;
+  --color-bg-nav: 243, 244, 246;
+  --color-bg-alarm: 255, 95, 109;
+  /* 字体颜色 */
+  --color-text-main: 250, 250, 250;
+  --color-text-muted: 214, 214, 214;
+  --color-text-invert: 214, 214, 214;
+  --color-text-active: 255, 219, 112;
+
+  /* icon图标颜色 */
+  --color-icon-default: 78, 176, 228;
+  --color-fill-main: 59, 130, 246;
+  --color-fill-muted: 191, 219, 254;
+}
+
+.dark-theme {
+  --color-highlight: 37, 99, 235;
+  --color-bg-base: 75, 85, 99;
+  --color-bg-nav: 55, 65, 81;
+  --color-text-main: 245, 245, 244;
+  --color-text-muted: 250, 250, 249;
+  --color-text-invert: 245, 245, 244;
+  --color-fill-main: 37, 99, 235;
+  --color-fill-muted: 147, 197, 253;
+}
+
+.tiger-theme {
+  --color-highlight: 245, 158, 11;
+  --color-bg-base: 210, 10, 10;
+  --color-bg: 249, 250, 251;
+  --color-bg-nav: 243, 244, 246;
+  --color-text-main: 31, 41, 55;
+  --color-text-muted: 252, 211, 77;
+  --color-text-invert: 254, 252, 232;
+  --color-fill-main: 251, 113, 133;
+  --color-fill-muted: 255, 241, 242;
+}
